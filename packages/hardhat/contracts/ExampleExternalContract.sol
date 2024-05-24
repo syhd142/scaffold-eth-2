@@ -9,4 +9,7 @@ contract ExampleExternalContract {
     completed = true;
   }
 
+  function hasComplete() public view returns(bool) {
+      return completed;
+  }
 }
